@@ -2,6 +2,14 @@
 
 ![all](/img/numbers100_1.png)
 
+(The first column is the input. Other columns are reconstructed outputs.)
+
+## Requirements
+python 3.6
+
+numpy >= 1.14
+
+matplotlib >= 3.0.0
 
 ## How to use
 
@@ -59,4 +67,6 @@ v = rbm.sample(num_iter=200, v_init=mnist[0])
 plt.imshow(v.reshape((28, 28)), cmap="gray")
 plt.show()
 ```
+
+For details about RBM, refer to this [report](https://github.com/FengZiYjun/Restricted-Boltzmann-Machine/blob/master/Report.pdf). 
 
